@@ -6,7 +6,6 @@ const bakerSeedData = require('../models/baker_seed.js')
 
 //GET
 baker.get('/data/seed', (req, res) => {
-    console.log(bakerSeedData)
     Baker.insertMany(bakerSeedData)
         .then(res.redirect('/breads'))
 })

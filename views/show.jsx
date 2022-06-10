@@ -11,7 +11,7 @@ function Show({bread, index}){
                 {
                     bread.hasGluten
                     ? <span> does </span>
-                    : <span> does not</span>
+                    : <span> does not </span>
                 }
                 have gluten.
             </p>
